@@ -194,7 +194,6 @@ namespace VMS.DatabaseLogicLayer
                 cmd.Parameters.Add("@ULC", SqlDbType.Int).Value = S.ULC;
                 BaglantiAyarla();
                 ReturnValues = cmd.ExecuteNonQuery();
-
             }
             catch (Exception ex)
             {
